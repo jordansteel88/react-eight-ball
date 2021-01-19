@@ -1,0 +1,31 @@
+.EightBall {
+    text-align: center;
+}
+
+.EightBall-ball {
+    color: #FFF;
+    font-size: 3rem;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 20%;
+    border: none;
+    box-shadow: 8px 8px 20px #AAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.EightBall-ball:focus,
+.EightBall-reset:focus {
+    outline: 0;
+}
+
+.EightBall-reset {
+    background-color: blue;
+    color: #FFF;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
